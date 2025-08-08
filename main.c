@@ -10,7 +10,7 @@ void print_help() {
          "-l | list all todos\n");
 }
 
-// TODO: use global finalize function for sqlite handle
+// TODO: use global cleanup function for sqlite handle
 int main(int argc, char *argv[]) {
   printf("Hello world \n");
 
